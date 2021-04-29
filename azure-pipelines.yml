@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'a94aa7fb-fea4-4e4e-aabe-3334a41a1e8a'
   imageRepository: 'presidrupal'
   containerRegistry: 'cliementecht.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '/deployments/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
